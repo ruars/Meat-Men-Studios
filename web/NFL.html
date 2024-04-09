@@ -1,0 +1,90 @@
+<!--meat men studios
+26/02/24
+ver1-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/css.css"> 
+    <!-- I hope you don't mind me posting this here lol R -->
+    <title> cart </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="ticket website">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ruaridh">
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script> 
+  </head>
+  <body>
+
+    <nav>
+      <div class="navigation">
+        <a class="nav" href="meat_man_home.html"> <img src="images/rt.png" alt=""> home</a> 
+        <a class="nav" href="music_page.html"> <img src="images/music.png" alt="music"> music</a>
+        <a class="nav" href="sports_page.html"> <img src="images/Football.png" alt="sports"> sports </a>
+        <a class="nav" href="contacts_page.html"> <img src="images/rt.png" alt=""> contact</a> 
+        <a class="nav" href="Ts+Cs_page.html"> terms and conditions</a>
+    </div>    
+  </nav>
+
+  <h1 class="title">Checkout</h1>
+  <img src="/images/logs/download.png" alt="Description of the image">
+
+  <div class="checkout-container">
+    <div class="checkout-header">
+      <h2>Checkout</h2>
+    </div>
+    <form class="checkout-container" action="#" method="post"></form>
+    <!-- Form Group for Name -->
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </div>
+    <!-- Form Group for Email -->
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <!-- Form Group for Phone -->
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number">
+    </div>
+    <div class="form-group">
+      <label for="ticket-type">Ticket Type</label>
+<select id="ticket-type">
+  <option value="standard">Standard - £50</option>
+  <option value="standard1">Standard 1 - £52.80</option>
+  <option value="standard2">Standard 2 - £86.85</option>
+  <option value="standard3">Standard 3 - £98</option>
+  <option value="premium">Premium - £100</option>
+  <option value="premium1">Premium 1 - £56</option>
+  <option value="premium2">Premium 2 - £21</option>
+  <option value="premium3">Premium 3 - £15</option>
+  <option value="vip">VIP - £150</option>
+  <option value="vip2">VIP 2 - £76</option>
+  <!-- Add more options as needed -->
+</select>
+        
+      </select>
+    </div>
+      <div class="form-group">
+      <label for="insurance">Would you like ticket insurance? (+£10)</label>
+      <input type="checkbox" id="insurance" name="insurance" value="yes">
+      <label for="insurance">Yes</label>
+      <div class="form-group">
+        <p id="total-price">Total Price: £0</p>
+      </div>
+    </div>
+    <form action="message.html">
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+</div>
+<script src="/javascript/checkout.js"></script>
+<script src="/javascript/email.js"></script>
+
+</body>
+<footer>
+  <p>&copy; 2024 Meat Men Studios. All rights reserved.</p>
+</footer>
+</html>
+

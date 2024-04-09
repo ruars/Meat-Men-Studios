@@ -1,0 +1,137 @@
+/* We're ducking ducked */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Navigation styles the people who make w3school should get millions of pounds */
+nav {
+    background-color: #18aac4;
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.nav {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.nav:hover {
+    background-color: #148497;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+}
+
+/* Main content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Privacy policy section  the privacy policy on the shared group chat is shit I had to make a small thing to do testing */
+privicy_policy {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Contacts */
+contacts {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles I want a Footer so I can add social media links and stuff */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+.artist {
+    position: relative;
+    display: inline-block;
+  }
+  
+.sports{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .artist:hover .details {
+    display: block;
+  }
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  .social-media-links {
+    text-align: center;
+    background-color: #65638a8f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .social-media-links a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  .social-media-links a:hover {
+    color: #007bff;
+  }
+  body::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey tint */
+    z-index: -1;
+  }
